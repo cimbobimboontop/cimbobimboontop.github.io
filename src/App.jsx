@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-// Komponent pre jednotlivé projekty - tvoja "stavebnica"
+// Reusable Project Component
 const ProjectCard = ({ title, status, description, tech }) => (
   <div className="border border-gray-800 bg-gray-900/50 p-6 rounded-xl hover:border-blue-500/50 transition-all group">
     <div className="flex justify-between items-start mb-4">
@@ -42,37 +42,37 @@ export default function App() {
             Matúš Krivánik
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl font-light leading-relaxed">
-            Digitálny dizajnér so zameraním na <span className="text-white font-medium">Computer Architecture</span> a <span className="text-white font-medium">Low-level Engineering</span>. Aktuálne vyvíjam vlastný 8-bit procesor vo Verilogu.
+            Digital Designer specializing in <span className="text-white font-medium">Computer Architecture</span> and <span className="text-white font-medium">Low-level Engineering</span>. Currently building a custom 8-bit RISC processor in Verilog.
           </p>
         </header>
 
         {/* Main Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           
-          {/* Left Column: Projects & Experience */}
+          {/* Left Column: Projects */}
           <div className="md:col-span-2 space-y-12">
             <section>
               <h2 className="text-xs uppercase tracking-[0.2em] text-gray-500 font-bold mb-8 flex items-center">
-                <span className="w-8 h-[1px] bg-gray-800 mr-4"></span> Vybrané Projekty
+                <span className="w-8 h-[1px] bg-gray-800 mr-4"></span> Featured Projects
               </h2>
               <div className="grid gap-6">
                 <ProjectCard 
                   title="8-bit RISC Processor"
                   status="In Development"
-                  description="Návrh a implementácia CPU architektúry od nuly. Vlastný Instruction Set, Register File a ALU. Simulované cez Icarus Verilog."
+                  description="Architecting and implementing a CPU from scratch. Features custom Instruction Set Architecture (ISA), Register File, and ALU. Verified via Icarus Verilog."
                   tech={['Verilog', 'GTKWave', 'Digital Logic']}
                 />
                 <ProjectCard 
-                  title="Portfolio Website"
+                  title="Personal Portfolio"
                   status="Stable"
-                  description="Moderné portfólio postavené na Reacte a Vite. Nasadené na GitHub Pages s automatickým CI/CD pipeline."
+                  description="Modern portfolio built with React and Vite. Deployed on GitHub Pages using an automated CI/CD pipeline."
                   tech={['React 19', 'Tailwind CSS', 'Vite']}
                 />
               </div>
             </section>
           </div>
 
-          {/* Right Column: Hardware Simulator & Skills */}
+          {/* Right Column: Tech Stack & Interactive Widget */}
           <div className="space-y-12">
             <section>
               <h2 className="text-xs uppercase tracking-[0.2em] text-gray-500 font-bold mb-8 flex items-center">
@@ -94,7 +94,7 @@ export default function App() {
               </div>
             </section>
 
-            {/* Interactive "Hardware" Widget */}
+            {/* Interactive Widget */}
             <section className="p-6 rounded-2xl bg-blue-600/5 border border-blue-500/20">
               <h3 className="text-white text-sm font-bold mb-4 flex items-center gap-2">
                 <div className="w-2 h-2 bg-blue-500 animate-pulse rounded-full" />
@@ -121,7 +121,7 @@ export default function App() {
         <footer className="mt-32 pt-8 border-t border-gray-900 flex justify-between items-center text-[10px] font-mono text-gray-600">
           <p>© 2026 MATUS KRIVANIK. SYSTEM_OK</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors uppercase">GitHub</a>
+            <a href="https://github.com/cimbobimboontop" className="hover:text-white transition-colors uppercase">GitHub</a>
             <a href="#" className="hover:text-white transition-colors uppercase">LinkedIn</a>
           </div>
         </footer>
