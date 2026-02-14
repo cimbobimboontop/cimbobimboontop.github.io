@@ -95,7 +95,7 @@ export default function App() {
                 <Github size={18} />
               </a>
               <a 
-                href="https://linkedin.com/in/tvoj-profil" 
+                href="https://www.linkedin.com/in/mat%C3%BA%C5%A1-kriv%C3%A1nik-5a6368341/" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="p-2.5 rounded-xl border border-gray-800 text-gray-500 hover:text-blue-400 hover:border-blue-400/20 transition-all bg-white/5"
