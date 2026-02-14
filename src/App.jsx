@@ -115,7 +115,7 @@ export default function App() {
               Matúš Krivánik
             </h1>
             <p className="text-xl text-gray-400 max-w-2xl font-light leading-relaxed">
-              Digital Designer specializing in <span className="text-white font-medium underline underline-offset-8 decoration-blue-500/40">Computer Architecture</span> and <span className="text-white font-medium italic">Low-level Engineering</span>. Currently building an 8-bit RISC processor from scratch.
+              Digital Designer specializing in <span className="text-white font-medium underline underline-offset-8 decoration-blue-500/40">Computer Architecture</span> and <span className="text-white font-medium italic">Low-level Engineering</span>. Currently building an 8-bit processor from scratch.
             </p>
           </div>
         </header>
