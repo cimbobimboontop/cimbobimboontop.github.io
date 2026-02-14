@@ -181,7 +181,7 @@ export default function App() {
             <a href="https://github.com/cimbobimboontop" target="_blank" rel="noreferrer" className="hover:text-white transition-colors flex items-center gap-2">
               <Github size={12} /> GitHub
             </a>
-            <a href="#" className="hover:text-white transition-colors flex items-center gap-2">
+            <a href="https://www.linkedin.com/in/mat%C3%BA%C5%A1-kriv%C3%A1nik-5a6368341/" className="hover:text-white transition-colors flex items-center gap-2">
               <Linkedin size={12} /> LinkedIn
             </a>
           </div>
