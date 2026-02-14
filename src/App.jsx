@@ -62,12 +62,6 @@ export default function App() {
                   description="Architecting and implementing a CPU from scratch. Features custom Instruction Set Architecture (ISA), Register File, and ALU. Verified via Icarus Verilog."
                   tech={['Verilog', 'GTKWave', 'Digital Logic']}
                 />
-                <ProjectCard 
-                  title="Personal Portfolio"
-                  status="Stable"
-                  description="Modern portfolio built with React and Vite. Deployed on GitHub Pages using an automated CI/CD pipeline."
-                  tech={['React 19', 'Tailwind CSS', 'Vite']}
-                />
               </div>
             </section>
           </div>
